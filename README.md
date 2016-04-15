@@ -1,6 +1,6 @@
 # phplike
 
-this Repository is my sample code.
+this Repository is my sample code for node.js.
 
 php like functions.
 
