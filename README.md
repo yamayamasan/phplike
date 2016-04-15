@@ -17,7 +17,7 @@ var issetOr = phplike.issetor;
 var array_column = phplike.array_column;
 
 var data = null;
-if (isset($data)) {
+if (isset(data)) {
   data = 1;
 }
 
