@@ -1,6 +1,6 @@
 module.exports = {
-  'isset': require('./isset'),
-  'or': require('./or'),
-  'array_column': require('./array_column')
+  'isset': require('./func/isset'),
+  'or': require('./func/or'),
+  'array_column': require('./func/array_column')
 };
 
