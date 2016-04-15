@@ -9,10 +9,20 @@ php like functions.
 * array_column
 
 ## Usage
-`
+```php:sample
 var phplike = require('phplike')
 
 var isset = phplike.isset;
 var issetOr = phplike.issetor;
 var array_column = phplike.array_column;
-`
+
+var data = null;
+if (isset($data)) {
+  data = 1;
+}
+
+var array = [];
+var string = null;
+var int = 1;
+var val = issetOr(array[0], string, int);
+```
