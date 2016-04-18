@@ -6,6 +6,9 @@ php like functions.
 
 * isset
 * issetOr
+* empty
+* is_null
+* is_undefined
 * array_column
 
 ## Usage
