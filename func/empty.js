@@ -9,7 +9,7 @@ function Empty(arg) {
     if (arg.length === 0) {
       empty = true;
     }
-  } else if (typeof arg === 'object') {
+  } else if (arg !== null && typeof arg === 'object') {
     if (Object.keys(arg).length === 0) {
       empty = true;
     }
